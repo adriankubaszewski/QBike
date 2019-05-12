@@ -1,0 +1,226 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.qbike.PrzegladanieTrasyStrona1"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa trasy:"
+        android:textSize="15dp"
+        android:layout_marginStart="91dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewNazwaTrasy"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="91dp" />
+
+    <TextView
+        android:id="@+id/textViewNazwaTrasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        android:layout_marginStart="9dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="46dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView14"
+        android:layout_marginLeft="9dp" />
+
+    <TextView
+        android:id="@+id/textViewDataUtworzenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewNazwaTrasy"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNazwaTrasy"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewNazwaTrasy" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data utworzenia:"
+        android:textSize="15dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintRight_toLeftOf="@+id/textViewDataUtworzenia"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewDataUtworzenia"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="9dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przejechany dystans:"
+        android:textSize="15dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintRight_toLeftOf="@+id/textViewDystans"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewDystans"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="9dp" />
+
+    <TextView
+        android:id="@+id/textViewDystans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewDataUtworzenia"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDataUtworzenia"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewDataUtworzenia" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prędkość średnia:"
+        android:textSize="15dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView27"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewSrredniaPred"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <TextView
+        android:id="@+id/textViewSrredniaPred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewDystans"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDystans"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewDystans" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Czas trwania:"
+        android:textSize="15dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView27"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewCzasTrwania"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <TextView
+        android:id="@+id/textViewCzasTrwania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewPredkoscMax"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPredkoscMax"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewPredkoscMax" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spalone kalorie:"
+        android:textSize="15dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView23"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewSpaloneKCAL"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <TextView
+        android:id="@+id/textViewSpaloneKCAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewCzasTrwania"
+        android:layout_marginTop="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCzasTrwania"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewCzasTrwania" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prędkość maksymalna:"
+        android:textSize="15dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintRight_toLeftOf="@+id/textViewPredkoscMax"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewPredkoscMax"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="9dp" />
+
+    <TextView
+        android:id="@+id/textViewPredkoscMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:textSize="15dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textViewSrredniaPred"
+        android:layout_marginTop="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSrredniaPred"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewSrredniaPred" />
+
+    <Button
+        android:id="@+id/buttonUsunTrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuń trasę"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/buttonEdycjaNazwy"
+        android:layout_marginBottom="92dp"
+        android:layout_marginRight="28dp" />
+
+    <Button
+        android:id="@+id/buttonEdycjaNazwy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edytuj nazwę trsy"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="0dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUsunTrase"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintVertical_bias="0.881"
+        app:layout_constraintLeft_toLeftOf="@+id/textView25"
+        android:layout_marginLeft="37dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_instrukcja"
+            android:title="Instrukcja" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Trening" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_test"
+            android:title="Przejechane trasy" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ustawienia" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_osiagniecia"
+            android:title="Osiągnięcia" />
+        <item
+            android:id="@+id/nav_informacje"
+            android:icon="@drawable/ic_menu_informacje"
+            android:title="Informacje" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.user.qbike.InstrukcjaObslugiActivity">
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instrukcja obsługi"
+            android:textSize="22dp"
+            android:layout_marginLeft="88dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.458" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu aplikacji"
+            android:textSize="22dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.502" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="258dp"
+            android:layout_height="276dp"
+            android:src="@drawable/instrukcjamenu"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            android:layout_marginBottom="21dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="315dp"
+            android:layout_height="655dp"
+            android:text="W tej chwili znajdujesz się w opcji 'Instrukcja'. Opcje które są też dostępne w menu to: \n
+- 'Trening' - uruchamia tryb treningu, można go też uruchomić klikając przycisk na oknie startowym \n
+- 'Mapa' - umożliwia przeglądanie mapy \n
+- 'Przejechane trasy' - umożliwia przeglądanie oraz zarządzanie przejechanymi trasami. Można edytować ich anzwę, usuwać, a także przeglądać statystyki, mapy i wykresy pokazujące przebieg trasy \n
+- 'Ustawienia' - umożliwia dostosowanie aplikacji do swoich potrzeb. Można zmienić parametry odczytu GPS oraz ustawić tryb treningu oraz informacje potrzebne do obliczania spalonych kalorii \n
+- 'Osiągnięcia' - Pokazuje zadania, które udało się osiagniąć podczas jazdy z aplikacją \n
+- 'Informacje' - przedstawia ogólne informacje o aplikacji QBike \n
+Aby wrócić do poprzedniego, należy kliknąć przycisk wstecz telefonu"
+            android:textSize="18dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
